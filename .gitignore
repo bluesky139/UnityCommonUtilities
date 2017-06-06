@@ -34,3 +34,7 @@ sysinfo.txt
 *.unitypackage
 _LightningRebuild/
 TestOutput/
+Assets/DeviceProfiles_Gen.cs
+Assets/DeviceProfiles_Gen.cs.meta
+Assets/Plugins/DeviceProfiles/Editor/~$DeviceProfiles.xlsx
+Assets/Plugins/DeviceProfiles/Editor/~$DeviceProfiles.xlsx.meta
