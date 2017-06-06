@@ -23,3 +23,4 @@
 * The generated folder `./_LightningRebuild` is for lightning rebuild, if it's built on other machine, you can copy it to your machine.
 * Copy built apk to `./`.
 * Use menu `Common -> LightningRebuild -> Rebuild xxx` to rebuild, new output apk is `./_LightningRebuild/rebuilt.apk`.
+* Demo: [https://github.com/bluesky139/UnityCommonUtilities/blob/master/Assets/Test/LightningRebuild/Editor/LightningRebuildEditorTest.cs](https://github.com/bluesky139/UnityCommonUtilities/blob/master/Assets/Test/LightningRebuild/Editor/LightningRebuildEditorTest.cs)
