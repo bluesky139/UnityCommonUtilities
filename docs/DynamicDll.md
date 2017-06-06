@@ -24,3 +24,4 @@
 * Make sure only one class in this file, class name need same as file name.
 * Prepare `_LightningBuild` folder and apk, Use menu `Common -> Dynamic Dll -> Build` to build dll, output is `./_LightningRebuild/Assembly-CSharp-dynamic.dll`.
 * Put it to `/sdcard/Android/data/[PackageName]/files/` to test (I will load it from here for local test), make sure everything is ok then put it online.
+* Demo: [https://github.com/bluesky139/UnityCommonUtilities/tree/master/Assets/Test/DynamicDll](https://github.com/bluesky139/UnityCommonUtilities/tree/master/Assets/Test/DynamicDll)
