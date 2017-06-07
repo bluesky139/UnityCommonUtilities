@@ -18,6 +18,7 @@
 
 ## Usage
 
+* Call `LightningRebuild.specCSharpFiles` to set specific C# file paths if necessary, such as generated C# files, these files will be backed up for later compilation. Each file should starts with `Assets/`.
 * Call `LightningRebuild.PreBuild()` before `BuildPipeline.BuildPlayer()`.
 * Make sure no lightning rebuild related error after build.
 * The generated folder `./_LightningRebuild` is for lightning rebuild, if it's built on other machine, you can copy it to your machine.

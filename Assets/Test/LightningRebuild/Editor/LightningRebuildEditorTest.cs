@@ -8,6 +8,10 @@ class LightningRebuildEditorTest
 	[MenuItem("Test/LightningRebuild/Build Android")]
 	static void Build()
 	{
+		LightningRebuild.specCSharpFiles = new string[]
+		{
+			"Assets/Test/LightningRebuild/OneGeneratedFile.cs"
+		};
 		LightningRebuild.PreBuild(BuildTarget.Android);
 		if (!Directory.Exists("./TestOutput/LightningRebuild"))
 			Directory.CreateDirectory("./TestOutput/LightningRebuild");
