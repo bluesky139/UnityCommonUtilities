@@ -40,3 +40,6 @@
 > * Parameters are same as `Auto match`, but you should set all `Target` to `deviceModel` to match specific device.
 > * The 1st matched quality will be used, `Auto match` will be ignored.
 > * You can also set `Common settings` for one specific device, put them on the right side.
+
+### Build
+* Use menu `Common -> Device Profiles -> Generate` to generate client readable config from `DeviceProfiles.xlsx`. You should generate it once again after modifying `DeviceProfiles.xlsx`.
