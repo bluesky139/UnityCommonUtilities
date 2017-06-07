@@ -11,6 +11,7 @@ class DeviceProfilesTest
 	{
 		DeviceProfiles.MatchAndSetWithProfile();
 		Debug.Log("Dlc.maxDownloadThread " + Dlc.maxDownloadThread);
+		Debug.Log("Preloader.enabled " + Preloader.enabled);
 	}
 
 	[FloatingDebug.Item("DeviceProfiles", "Fast")]
