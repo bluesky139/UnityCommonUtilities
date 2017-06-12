@@ -93,11 +93,9 @@ namespace common
             List<string> logs = new List<string>();
             foreach (DevMacro.Macro macro in DevMacro.instance.macros["Logs"])
             {
-                if (macro.name != "LOG_TO_FILE")
-                    logs.Add(macro.name);
+                logs.Add(macro.name);
             }
             string content = "// Generated from DevLog_Template by DevDebugEditor.\n";
-            content += "// Add new tag in DevDebug.GetLogList(), then press button CustomBuild -> DevDebug -> Generate DevLog_Gen.cs\n";
             content += "//\n\n";
             foreach (string log in logs)
             {
@@ -109,6 +107,7 @@ namespace common
             }
 			var path = EditorEnv.dstUnityProjectPlugins + "/Macro/DevLog_Gen.cs";
 			File.WriteAllText(path, content);
+			AssetDatabase.Refresh();
         }
 
         static DevDebugEditor()

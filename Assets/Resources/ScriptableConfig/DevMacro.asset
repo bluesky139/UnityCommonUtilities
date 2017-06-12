@@ -19,6 +19,16 @@ MonoBehaviour:
     lastModifyTime_: 2017-06-12 10:12:52
   - name: USE_LOG_OUTPUT
     type: Version
-    desc: 
+    desc: Control all logs.
     enabled_: 1
     lastModifyTime_: 2017-06-12 10:13:20
+  - name: DLC_LOG
+    type: Logs
+    desc: 
+    enabled_: 0
+    lastModifyTime_: 2017-06-12 10:27:33
+  - name: ABC_LOG
+    type: Logs
+    desc: 
+    enabled_: 0
+    lastModifyTime_: 2017-06-12 10:27:55

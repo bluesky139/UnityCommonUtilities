@@ -1,1 +1,1 @@
--unsafe -define:USE_UNSAFE;USE_LOG_OUTPUT;
+-unsafe -define:USE_UNSAFE;USE_LOG_OUTPUT;DLC_LOG;ABC_LOG;

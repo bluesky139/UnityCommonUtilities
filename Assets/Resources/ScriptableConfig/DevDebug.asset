@@ -22,3 +22,13 @@ MonoBehaviour:
     desc: 
     enabled_: 1
     lastModifyTime_: 2017-06-12 10:14:02
+  - name: DLC_LOG
+    type: Logs
+    desc: 
+    enabled_: 1
+    lastModifyTime_: 2017-06-12 10:43:44
+  - name: ABC_LOG
+    type: Logs
+    desc: 
+    enabled_: 1
+    lastModifyTime_: 2017-06-12 10:43:45
