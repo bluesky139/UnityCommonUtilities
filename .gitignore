@@ -40,3 +40,5 @@ Assets/Plugins/DeviceProfiles/Editor/~$DeviceProfiles.xlsx
 Assets/Plugins/DeviceProfiles/Editor/~$DeviceProfiles.xlsx.meta
 Assets/Plugins/Macro/Dev_EmptyForRefresh.cs
 Assets/Plugins/Macro/Dev_EmptyForRefresh.cs.meta
+Assets/Resources/ScriptableConfig/DevDebug.asset
+Assets/Resources/ScriptableConfig/DevDebug.asset.meta
