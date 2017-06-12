@@ -4,7 +4,8 @@
 * [Floating Debug](https://github.com/bluesky139/UnityCommonUtilities/blob/master/docs/FloatingDebug.md) - Any time any where to call your test method.
 * [Dynamic Dll](https://github.com/bluesky139/UnityCommonUtilities/blob/master/docs/DynamicDll.md) - Load extra C# code on the fly.
 * [Device Profiles](https://github.com/bluesky139/UnityCommonUtilities/blob/master/docs/DeviceProfiles.md) - Set quality automatically or set it for specific devices.
-* [Air Inspector](https://github.com/bluesky139/UnityCommonUtilities/blob/master/docs/AirInspector.md) - Inspect/Adjust quality and various parameters for different mobile device on the fly.
+* [Air Inspector](https://github.com/bluesky139/UnityCommonUtilities/blob/master/docs/AirInspector.md) - Inspect / Adjust quality and various parameters for different mobile device on the fly.
+* [Macro](https://github.com/bluesky139/UnityCommonUtilities/blob/master/docs/Macro.md) - Simply add / enable / disable macros, control logs by namespace.
 
 ## Note
 
