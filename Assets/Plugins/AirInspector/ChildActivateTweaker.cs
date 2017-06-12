@@ -13,8 +13,6 @@ class ChildActivateTweaker : AirTweaker
         for (int i = 0; i < gameObject.transform.childCount; ++i)
         {
             Transform child = gameObject.transform.GetChild(i);
-            if (child.name.StartsWith("__"))
-                continue;
             objs.Add(child.name, child.gameObject.activeSelf);
         }
         return objs;
