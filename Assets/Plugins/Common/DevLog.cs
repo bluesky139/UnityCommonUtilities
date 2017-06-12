@@ -13,6 +13,67 @@ using System.Text;
 namespace common
 {
 
+public class DevLog
+{
+	public static bool enableAllLogs = true;
+
+	private string TAG = "";
+	private bool enabled_ = false;
+
+	private bool enabled
+	{
+		get
+		{
+			return enableAllLogs && enabled_;
+		}
+	}
+	public DevLog(string tag, bool enabled)
+	{
+		TAG = tag;
+		this.enabled_ = enabled;
+	}
+
+	[Conditional("USE_LOG_OUTPUT")]
+	public void Log(string msg)
+	{
+		if (enabled)
+		{
+			msg = "[" + TAG + "] " + msg;
+			Debug.Log(msg);
+		}
+	}
+
+	[Conditional("USE_LOG_OUTPUT")]
+	public void LogWarning(string msg)
+	{
+		if (enabled)
+		{
+			msg = "[" + TAG + "] " + msg;
+			Debug.LogWarning(msg);
+		}
+	}
+
+	[Conditional("USE_LOG_OUTPUT")]
+	public void LogError(string msg)
+	{
+		if (enabled)
+		{
+			msg = "[" + TAG + "] " + msg;
+			Debug.LogError(msg);
+		}
+	}
+
+	[Conditional("USE_LOG_OUTPUT")]
+	public void Assert(bool condition, string msg)
+	{
+		if (enabled)
+		{
+			msg = "[" + TAG + "] " + msg;
+			Debug.Assert(condition, msg);
+		}
+	}
+}
+
 public class Debug
 {
     //

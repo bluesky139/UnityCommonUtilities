@@ -338,7 +338,7 @@ PlayerSettings:
   psmSplashimage: {fileID: 0}
   spritePackerPolicy: 
   scriptingDefineSymbols:
-    7: USE_LOG_OUTPUT
+    7: 
   metroPackageName: UnityLightningRebuild
   metroPackageVersion: 
   metroCertificatePath: 
